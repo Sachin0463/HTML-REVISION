@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision</title>
+    <link rel="stylesheet" href="revi.css">
+</head>
+<body>
+  <form action="/action">
+  <label>(A+B)<sup>2</sup>=----?</label>
+  <table>
+    <ol>
+        <li>A+B</li>
+        <input type="radio" id="1" name="correct">
+        <li>A<sup>2</sup>+B<sup>2</sup>+AB</li>
+        <input type="radio" id="2" name="correct">
+        <li>A<sup>2</sup>+B<sup>2</sup>+2A</li>
+        <input type="radio" id="3" name="correct">
+        <li>A<sup>2</sup>+B<sup>2</sup>+2AB</li>
+        <input type="radio" id="4" name="correct">
+    </ol>
+  </table>
+  </form>
+</body>
+</html>
